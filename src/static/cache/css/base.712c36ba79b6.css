@@ -1,0 +1,21 @@
+/* line 2, static/site/sass/base.scss */
+.padding-0 {
+  padding: 0; }
+
+/* line 7, static/site/sass/base.scss */
+.navbar .navbar-brand {
+  color: white;
+  font-weight: bold; }
+
+/* line 12, static/site/sass/base.scss */
+.navbar .icon-menu {
+  float: right;
+  position: absolute;
+  top: 8px;
+  right: 17px;
+  font-size: 25px;
+  color: white; }
+
+/* line 23, static/site/sass/base.scss */
+#myCarousel .slide-img {
+  width: 100%; }

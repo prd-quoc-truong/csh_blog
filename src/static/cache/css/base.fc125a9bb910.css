@@ -1,0 +1,17 @@
+/* line 2, static/site/sass/base.scss */
+.padding-0 {
+  padding: 0; }
+
+/* line 6, static/site/sass/base.scss */
+.navbar {
+  position: relative; }
+  /* line 8, static/site/sass/base.scss */
+  .navbar .icon-menu {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+/* line 17, static/site/sass/base.scss */
+#myCarousel .slide-img {
+  width: 100%; }

@@ -1,0 +1,60 @@
+/* line 2, static/site/sass/base.scss */
+.padding-0 {
+  padding: 0; }
+
+/* line 6, static/site/sass/base.scss */
+.left {
+  float: left; }
+
+/* line 10, static/site/sass/base.scss */
+.right {
+  float: right; }
+
+/* line 15, static/site/sass/base.scss */
+.navbar .navbar-brand {
+  color: white;
+  font-weight: bold; }
+
+/* line 19, static/site/sass/base.scss */
+.navbar .icon-menu {
+  display: none;
+  float: right;
+  position: absolute;
+  top: 8px;
+  right: 17px;
+  font-size: 25px;
+  color: white; }
+
+/* line 29, static/site/sass/base.scss */
+.navbar .nav-menu li > a.active {
+  background-color: #2b669a; }
+
+/* line 36, static/site/sass/base.scss */
+#myCarousel .carousel-inner {
+  margin: 0;
+  padding: 0;
+  width: 100% !important; }
+
+/* line 41, static/site/sass/base.scss */
+#myCarousel .item {
+  width: 100%;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible; }
+
+/* line 49, static/site/sass/base.scss */
+#myCarousel .slide-img {
+  width: 100%; }
+
+@media only screen and (max-width: 768px) {
+  /* line 56, static/site/sass/base.scss */
+  .navbar .icon-menu {
+    display: block; }
+  /* line 59, static/site/sass/base.scss */
+  .navbar .nav-menu {
+    display: none; }
+  /* line 63, static/site/sass/base.scss */
+  #myCarousel {
+    margin-top: 51px; } }

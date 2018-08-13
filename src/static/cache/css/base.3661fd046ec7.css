@@ -1,0 +1,47 @@
+/* line 2, static/site/sass/base.scss */
+.padding-0 {
+  padding: 0; }
+
+/* line 7, static/site/sass/base.scss */
+.navbar .navbar-brand {
+  color: white;
+  font-weight: bold; }
+
+/* line 11, static/site/sass/base.scss */
+.navbar .icon-menu {
+  display: none;
+  float: right;
+  position: absolute;
+  top: 8px;
+  right: 17px;
+  font-size: 25px;
+  color: white; }
+
+/* line 21, static/site/sass/base.scss */
+.navbar .nav-menu li > a.active {
+  background-color: #2b669a; }
+
+/* line 27, static/site/sass/base.scss */
+#myCarousel {
+  background-color: black; }
+  /* line 29, static/site/sass/base.scss */
+  #myCarousel .item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible; }
+  /* line 36, static/site/sass/base.scss */
+  #myCarousel .slide-img {
+    width: 100%; }
+
+@media only screen and (max-width: 768px) {
+  /* line 43, static/site/sass/base.scss */
+  .navbar .icon-menu {
+    display: block; }
+  /* line 46, static/site/sass/base.scss */
+  .navbar .nav-menu {
+    display: none; }
+  /* line 50, static/site/sass/base.scss */
+  #myCarousel {
+    margin-top: 51px; } }
