@@ -1,0 +1,68 @@
+
+.navbar{
+    .navbar-brand{
+        color: white;
+        font-weight: bold;
+    }
+    .icon-menu{
+        display: none;
+        float: right;
+        position: absolute;
+        top: 8px;
+        right: 17px;
+        font-size: 25px;
+        color: white;
+    }
+    .nav-menu{
+        li>a.active{
+            background-color: #2b669a;
+        }
+    }
+}
+
+#banner {
+    max-height: 100%;
+    .slide-img{
+        width: 100%;
+    }
+}
+
+.introduction{
+    margin-top: 20px;
+}
+
+.history{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .navbar{
+        .icon-menu{
+            display: block;
+        }
+        .nav-menu{
+            display: none;
+        }
+    }
+    #banner{
+        margin-top: 51px;
+    }
+}
+
+/* Fading animation */
+.slide-style {
+    -webkit-animation: slide-style;
+    -webkit-animation-duration: 1.5s;
+    animation: slide-style;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes slide-style {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes slide-style {
+    from {opacity: .4}
+    to {opacity: 1}
+}
