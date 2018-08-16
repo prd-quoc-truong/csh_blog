@@ -101,4 +101,22 @@ venv.bak/
 /site
 
 # mypy
+
 .mypy_cache/
+/env/
+/nbproject/
+.buildpath
+.project
+/.settings/
+/.idea
+/ai/nbproject/private
+/src/profiles/migrations/0001_initial.py
+/src/public/utils.py
+/static/site/js/templates/templates.js
+# Static cache
+/src/static/cache/*
+/src/static/site/js/templates/templates.js
+#Config file
+config.env
+*.sh
+pyvenv.cfg

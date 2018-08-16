@@ -24,7 +24,8 @@
     }
 }
 
-#myCarousel {
+#banner {
+    max-height: 100%;
     .slide-img{
         width: 100%;
     }
@@ -39,9 +40,26 @@
             display: none;
         }
     }
-    #myCarousel{
+    #banner{
         margin-top: 51px;
     }
 }
 
+/* Fading animation */
+.slide-style {
+    -webkit-animation: slide-style;
+    -webkit-animation-duration: 1.5s;
+    animation: slide-style;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes slide-style {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes slide-style {
+    from {opacity: .4}
+    to {opacity: 1}
+}
 
